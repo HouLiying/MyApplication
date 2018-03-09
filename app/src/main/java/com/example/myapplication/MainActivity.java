@@ -46,10 +46,10 @@ public class MainActivity extends Activity {
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 System.out.println("====shouldOverrideUrlLoading===="+url);
                 Toast.makeText(getApplicationContext(),getResources().getString(R.string.click),Toast.LENGTH_SHORT).show();
-                if(url.startsWith("http://m.baidu.com/")){
-                    return false;
+                if(url.startsWith("https://www.baidu.com")){
+                    return true;
                 }
-                return true;
+                return false;
             }
 
             /*@Override
