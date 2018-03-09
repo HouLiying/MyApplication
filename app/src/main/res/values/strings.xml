@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="unclick">没有被点击了</string>
+    <string name="click">被点击了</string>
+</resources>
